@@ -159,6 +159,7 @@ body{
 
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .park-content{
@@ -187,3 +188,76 @@ body{
     background: rgb(255, 0, 0);
     margin-right: 100px;
 }
+
+
+ /* new offer section starts here */
+
+ .offer-section-container{
+     max-width: 1320px;
+    height: 463px;
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+ }
+
+ .offer-section-content{
+     width: 33%;
+     margin-right: 50px;
+ }
+ .offer-section-content h5{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+ }
+
+.offer-section-content h3{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.offer-section-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.image-section-container{
+    width: 33%
+    height: 463px;
+    box-sizing: border-box;
+    border: 10px solid rgb(255, 0, 0);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.title-section-container{
+    width: 33%;
+    margin-left: 50px;
+
+}
+.title-section-container h3{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.title-section-container p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.title-section-container img{
+    width: 140px;
+    height: 132.79px;
+}
+
+
+
